@@ -1,7 +1,17 @@
 ##!/bin/bash
 
+##########
+#
+# Creado por Huezo
+# https://huezohuezo1990.wordpress.com/
+#
+#
+#########
 
 echo '¿Qué quieres hacer?'
+
+echo "==========================================================="
+echo "  "
 
 echo "0 = Instalacion de paquetes "
 
@@ -11,14 +21,24 @@ echo "2 = ACTUALIZAR: update , upgrade y dist-upgrade "
 
 echo "3 = elimina repositorio PPA y revierte cambios: ppa-purge  "
 
-
+echo "  "
+echo "==========================================================="
 
 read A
 
 if [ $A = 0 ];
 then
 
+echo "##########"
+echo "# para instalar 2" 
+echo "#  o mas paquetes solo"
+echo "# los escribes" 
+echo "# separados por espacio"
+echo "#"
+echo "#########"
+
 echo 'digita el paquete a instalar :'
+
 
 
 read huezo
@@ -26,6 +46,8 @@ read huezo
 sudo sudo apt-get install $huezo
 
 #sudo sudo apt install $huezo
+
+
 
 exit 0
 
