@@ -24,6 +24,14 @@ Solo debes escribir un numero
 
 ![demo2][demo2]
 
+[demo3]:https://raw.githubusercontent.com/huezo/hclear/master/demo1.png
+
+![demo3][demo3]
+
+[demo4]:https://raw.githubusercontent.com/huezo/hclear/master/demo2.png
+
+![demo4][demo4]
+
 
 
 # blog 
