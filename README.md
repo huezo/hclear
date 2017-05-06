@@ -1,5 +1,11 @@
 # hclear
-SCRIPT para instalar paquetes , actualizar o eliminar  ppa solo para Ubuntu o Derivados
+SCRIPT para :
+0 = Instalacion de paquetes 
+1 = LIMPIAR: autoclean , clean y autoremove 
+2 = ACTUALIZAR: update , upgrade y dist-upgrade 
+3 = elimina repositorio PPA y revierte cambios: ppa-purge  
+4 = desinstala el programa y eliminar todos los archivos de configuracion
+5 = desinstala programa y mantener los archivos de configuración
 
 
 
