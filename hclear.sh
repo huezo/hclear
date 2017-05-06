@@ -21,8 +21,13 @@ echo "2 = ACTUALIZAR: update , upgrade y dist-upgrade "
 
 echo "3 = elimina repositorio PPA y revierte cambios: ppa-purge  "
 
+echo "4 = desinstala el programa y eliminar todos los archivos de configuracion"
+
+echo "5 = desinstala programa y mantener los archivos de configuración"
+
 echo "  "
 echo "==========================================================="
+echo "  "
 
 read A
 
@@ -36,10 +41,11 @@ echo "# los escribes"
 echo "# separados por espacio"
 echo "#"
 echo "#########"
+echo ""
 
 echo 'digita el paquete a instalar :'
 
-
+echo ""
 
 read huezo
 
@@ -99,7 +105,7 @@ sudo apt-get dist-upgrade
 
 exit 0 
 
-elif [ $A = 3 ];
+elif [ $A = 3 ]; 
 then
 
 echo 'digita la ppa de esta manera ejemplo:'
@@ -109,8 +115,73 @@ read ppa
 
 sudo ppa-purge $ppa
 
-fi
+
+exit 0 
+
+elif [ $A = 4 ];
+
+
+#echo "4 = desinstala el programa y eliminar todos los archivos de configuracion"
+
+echo ""
+echo "##########"
+echo "# para desinstala 2" 
+echo "#  o mas paquetes solo"
+echo "# los escribes" 
+echo "# separados por espacio"
+echo "#"
+echo "#########"
+echo ""
+
+echo 'digita el paquete a desinstala :'
+echo ""
+
+read programa
+
+# sudo apt-get --purge remove $programa
+# sudo apt --purge remove $programa
+
+sudo apt-get --purge remove $programa
+
+then
+
+exit 0 
+
+
+elif [ $A = 5 ];
+
+echo ""
+echo "##########"
+echo "# para desinstala 2" 
+echo "#  o mas paquetes solo"
+echo "# los escribes" 
+echo "# separados por espacio"
+echo "#"
+echo "#########"
+echo ""
+
+echo ""
+echo 'digita el paquete a desinstala :'
+echo ""
+
+read programa1
+
+
+#echo "5 = desinstala programa y mantener los archivos de configuración"
+
+# sudo apt-get remove $programa1
+# sudo apt remove $programa1
+
+sudo apt-get remove $programa1
+
+
+
+then
+
 exit 0
+
+fi
+
 
 exit
 
