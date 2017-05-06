@@ -13,8 +13,25 @@ SCRIPT para :
 
 5 = desinstala programa y mantener los archivos de configuración
 
+# Que el script se ejecute en cualquier lugar de la Terminal:
+
+Permisos :
+```
+sudo chmod +x path.sh
+```
+
+Ejecutar:
+
+```
+./path.sh
+
+```
+Descargar :
+
+[https://github.com/huezo/hclear/releases](https://github.com/huezo/hclear/releases)
 
 
+____________________________________________________________________________________-
 
 
 ## Permisos :
