@@ -33,7 +33,7 @@ Descargar :
 
 [path]:https://raw.githubusercontent.com/huezo/hclear/master/path.png
 
-![path][demo1]
+![path][path]
 
 
 ____________________________________________________________________________________-
