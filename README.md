@@ -31,6 +31,11 @@ Descargar :
 [https://github.com/huezo/hclear/releases](https://github.com/huezo/hclear/releases)
 
 
+[path]:https://raw.githubusercontent.com/huezo/hclear/master/path.png
+
+![path][demo1]
+
+
 ____________________________________________________________________________________-
 
 
