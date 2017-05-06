@@ -30,13 +30,23 @@ Descargar :
 
 [https://github.com/huezo/hclear/releases](https://github.com/huezo/hclear/releases)
 
+## Ahora en La Terminal Solo Necesitaras Escribir:
+
+```
+hclear
+
+```
+
 
 [path]:https://raw.githubusercontent.com/huezo/hclear/master/path.png
 
 ![path][path]
 
 
-____________________________________________________________________________________-
+____________________________________________________________________________________
+____________________________________________________________________________________
+____________________________________________________________________________________
+
 
 
 ## Permisos :
