@@ -52,7 +52,7 @@ ________________________________________________________________________________
 
 
 
-# Que el script se ejecute Solo en una ubicacion especifica  :
+# Que el script se ejecute Solo en una ubicacion especifica:
 
 
 ## Permisos :
