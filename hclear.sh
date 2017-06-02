@@ -31,7 +31,7 @@ echo "5 = desinstala programa y mantener los archivos de configuración"
 
 echo "6 =  Reinstalar paquetes o Programa "
 
-echo "7 = Buscar apquetes con apt-cache search"
+echo "7 = Buscar paquetes con apt-cache search"
 
 echo "8 = Limpieza extrema-Kernel"
 
