@@ -18,7 +18,7 @@ SCRIPT para :
 
 6 =  Reinstalar paquetes o Programa 
 
-7 = Buscar apquetes con apt-cache search
+7 = Buscar paquetes con apt-cache search
 
 8 = Limpieza extrema-Kernel
 
