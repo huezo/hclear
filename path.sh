@@ -3,10 +3,13 @@
 # 
 # wget -N https://raw.githubusercontent.com/huezo/hclear/master/hclear.sh
 
+# Descarga hclear.sh
 
 wget -N https://raw.githubusercontent.com/huezo/hclear/master/hclear.sh
 
 #
+
+# permisos 
 
 sudo chmod +x hclear.sh
 
