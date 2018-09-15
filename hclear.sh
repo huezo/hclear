@@ -35,6 +35,10 @@ echo "7 = Buscar paquetes con apt-cache search"
 
 echo "8 = Limpieza extrema-Kernel"
 
+echo "9 = Lista de paquetes snap para Actualizacion y Actualizar paquetes snap "
+
+
+
 echo "  "
 echo "==========================================================="
 echo "  "
@@ -316,6 +320,25 @@ echo "¿ Desea continuar ? s/S para SI , n/N para No "
 
 
      ;;
+
+
+
+
+ 9)
+       echo "Lista de paquetes snap con actualizacion"
+
+           sudo snap refresh --list
+
+
+        echo "Actualizando paquetes snap" 
+
+           sudo snap refresh
+    
+
+
+     ;;
+
+
 
 
      *)
