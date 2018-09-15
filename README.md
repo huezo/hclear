@@ -22,6 +22,9 @@ SCRIPT para :
 
 8 = Limpieza extrema-Kernel
 
+9 = Lista de paquetes snap para Actualizacion y Actualizar paquetes snap
+
+
   
 ===========================================================
 
@@ -91,6 +94,14 @@ sudo chmod +x hclear.sh
 ./hclear.sh
 
 ```
+
+
+```
+bash hclear.sh
+
+```
+
+
 Solo debes escribir un numero 
 
 [demo1]:https://raw.githubusercontent.com/huezo/hclear/master/hclear.png
