@@ -24,7 +24,7 @@ SCRIPT para :
 
 9 = Lista de paquetes snap para Actualizacion y Actualizar paquetes snap
 
-
+10 = actualizacion update y full-upgrade + actualizacion de paquetes snap 
   
 ===========================================================
 
