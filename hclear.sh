@@ -87,7 +87,7 @@ sudo sudo apt-get install $huezo
 
 #sudo sudo apt install $huezo
 
-
+ 
 
 
 
@@ -155,8 +155,24 @@ sudo apt-get dist-upgrade
      3)
      
 
+
+ if [ "$(dpkg -l | awk '/ppa-purge/ {print }'|wc -l)" -ge 1 ]; then
+
+#echo OK
+echo ""
+
+else
+#echo FAIL
+echo "se necesita instalar el paquete ppa-purge"
+sudo apt install ppa-purge 
+ fi
+
+
+
 echo 'digita la ppa de esta manera ejemplo:'
 echo "ppa:ubuntu-mozilla-security/ppa"
+
+
 
 read ppa
 
@@ -575,8 +591,26 @@ sudo apt-get dist-upgrade
      3)
      
 
+
+ if [ "$(dpkg -l | awk '/ppa-purge/ {print }'|wc -l)" -ge 1 ]; then
+
+#echo OK
+echo ""
+
+else
+#echo FAIL
+echo "se necesita instalar el paquete ppa-purge"
+sudo apt install ppa-purge 
+ fi
+
+
+
+
+
 echo 'digita la ppa de esta manera ejemplo:'
 echo "ppa:ubuntu-mozilla-security/ppa"
+
+
 
 read ppa
 
