@@ -50,6 +50,11 @@ Descargar :
 wget -N https://raw.githubusercontent.com/huezo/hclear/master/path.sh
 
 ```
+Monocomando: Uno comando para hacerlo todo.
+```
+git clone https://github.com/huezo/hclear.git && cd hclear/ && sudo chmod +x path.sh && sudo ./path.sh && cd .. && hclear
+
+```
 
 ## Ahora en La Terminal Solo Necesitaras Escribir:
 
